@@ -4,7 +4,6 @@ RUN apk update && apk add --no-cache \
     curl \
     git \
     htop \
-    nano \
-    bash
+    nano
 
 CMD ["tail", "-f", "/dev/null"]
